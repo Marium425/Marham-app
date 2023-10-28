@@ -1,19 +1,17 @@
-
+import Navbar from './Navbar/Navbar';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
+<div className="App">
       
-<div className='w-full h-64 bg-pink-700'>
-
+<Navbar/>
 
 
 </div>
 
 
 
-    </div>
   );
 }
 
