@@ -1,4 +1,10 @@
 import React, { useState } from 'react';
+import { faEye } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faEyeSlash } from '@fortawesome/free-solid-svg-icons';
+
+library.add(faEye,faEyeSlash)
 
 const PasswordInput = () => {
   const [password, setPassword] = useState('');
@@ -21,15 +27,15 @@ const PasswordInput = () => {
 
   return (
 <div class="relative">
-       <label class="absolute  ml-[-80px] -mt-1 font-medium text-gray-600 bg-white">First Name</label>
+       <label class="absolute  ml-[-80px] -mt-1 text-sm font-semibold  bg-white text-blue-400">Password</label>
        <input  
-          class="block w-full px-8 py-3 mt-2 text-base placeholder-gray-400 bg-white border border-gray-300 rounded-md focus:outline-none focus:border-black"
-           placeholder="John"
+          class="block w-full px-8 py-3 mt-2 text-base placeholder-blue-400 bg-white border border-gray-300 rounded-md focus:outline-none "
+           placeholder=""
           type={showPassword ? 'text' : 'password'}
           id="password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
-          className="w-full px-8 py-3 mt-2 text-white border rounded focus:outline-none focus:ring focus:border-blue-300"
+          className="block w-full pt-3.5 px-8 py-3.5 mt-2 text-sm text-blue-400 placeholder-blue-400 bg-white border border-gray-300 rounded-md focus:outline-none focus:border-black"
         />
         <button
           onMouseDown={(e)=> onMouseDownShowButton(e)}
@@ -37,7 +43,8 @@ const PasswordInput = () => {
           onMouseLeave={(e)=>onMouseUpShowButton(e)}
           className="absolute text-gray-600 top-2 right-2"
         >
-          {showPassword ? 'Hide' : 'Show'}
+          {showPassword ?  <FontAwesomeIcon icon="eye-slash" size="md" className='mt-4'/> :  <FontAwesomeIcon icon="eye" size="md" className='mt-4'/>}
+          
         </button>
       </div>
     

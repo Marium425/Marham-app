@@ -1,21 +1,25 @@
 import PasswordInput from "../PasswordInput/PasswordInput";
+import Country from "../Country_Code/country";
 
 export default function Sign_Up(){
 
 
+ 
+
     return(
-        <div class="sign_up">
 
 
-<div className='flex w-full h-screen bg-green-900'>
 
-<div className='w-1/2 bg-blue-900'>
+<div className='flex w-full h-[635px] bg-white'>
 
-  <section class="p-6 bg-white text-gray-900">
-    <form novalidate="" action="" class="container flex flex-col mx-auto space-y-12">
+<div className='w-1/2  h-[635px]'>
 
+  <section class="p-6 bg-white ">
+    <h2 className="mt-2 text-3xl font-bold text-left text-blue-400 ml-9">Create Account</h2>
+    <form novalidate="" action="" class="container flex flex-col mx-auto space-y-6 mt-10">
+  
 
-      <div className='flex flex-row pl-8 space-x-20'>
+      <div className='flex flex-row pl-8 space-x-20 '>
 
         {/* <fieldset class="grid grid-cols-2 gap-6 pl-6 rounded-md shadow-sm  border-2 border-black">
 
@@ -38,14 +42,14 @@ export default function Sign_Up(){
 
 <div class="relative">
        <label class="absolute  ml-[-80px] -mt-1 text-sm font-semibold  bg-white text-blue-400">First Name</label>
-       <input type="text" class="block w-full pt-3.5 px-8 py-3.5 mt-2 text-sm placeholder-blue-400 bg-white border border-gray-300 rounded-md focus:outline-none focus:border-black" placeholder="John"/>
+       <input type="text" class="block placeholder:text-xs w-full pt-3.5 px-8 py-3.5 mt-2 text-sm placeholder-blue-400 text-blue-400 bg-white border border-gray-300 rounded-md focus:outline-none focus:border-black" placeholder="Enter Your First Name"/>
     </div>
 
 
     
 <div class="relative">
        <label class="absolute  ml-[-80px] -mt-1 text-sm font-semibold  bg-white text-blue-400">Last Name</label>
-       <input type="text" class="block w-full pt-3.5 px-8 py-3.5 mt-2 text-sm placeholder-blue-400 bg-white border border-gray-300 rounded-md focus:outline-none focus:border-black" placeholder="John"/>
+       <input type="text" class="block w-full placeholder:text-xs pt-3.5 px-8 py-3.5 mt-2 text-blue-400 text-sm placeholder-blue-400 bg-white border border-gray-300 rounded-md focus:outline-none focus:border-black" placeholder="Enter Your Last Name"/>
     </div>
 
       </div>
@@ -59,7 +63,7 @@ export default function Sign_Up(){
         
 <div class="relative">
        <label class="absolute  ml-[-80px] -mt-1 text-sm font-semibold  bg-white text-blue-400">Email</label>
-       <input type="text" class="block w-full pt-3.5 px-8 py-3.5 mt-2 text-sm placeholder-blue-400 bg-white border border-gray-300 rounded-md focus:outline-none focus:border-black" placeholder="John"/>
+       <input type="email" class="block w-full placeholder:text-xs  pt-3.5 px-8 py-3.5 mt-2 text-sm text-blue-400 placeholder-blue-400 bg-white border border-gray-300 rounded-md focus:outline-none focus:border-black" placeholder="Enter Your Email"/>
     </div>
 
 
@@ -67,7 +71,9 @@ export default function Sign_Up(){
 
     <div class="relative">
        <label class="absolute  ml-[-80px] -mt-1 text-sm font-semibold  bg-white text-blue-400">Phone Number</label>
-       <input type="text" class="block w-full pt-3.5 px-8 py-3.5 mt-2 text-sm placeholder-blue-400 bg-white border border-gray-300 rounded-md focus:outline-none focus:border-black" placeholder="John"/>
+    
+       <input type="text" class="block w-full pt-3.5  placeholder:pl-12  placeholder:text-[12px] px-8 py-3.5 mt-2 text-sm text-blue-400 placeholder-blue-400 bg-white border border-gray-300 rounded-md focus:outline-none focus:border-black" placeholder="Enter Phone Number"/>
+       <Country/>
     </div>
 
         {/* <fieldset class="grid grid-cols-2 gap-6 pl-6 rounded-md shadow-sm  border-2 border-black">
@@ -92,21 +98,21 @@ export default function Sign_Up(){
       </div>
 
 
-      <div className='flex flex-row pl-8 space-x-0'>
+      <div className='flex flex-row pl-8 space-x-24 '>
 
-        <div className='flex flex-col w-1/2 space-y-3'>
+        <div className='flex flex-col space-y-3 '>
 
           <p className='mr-auto font-bold text-blue-400'>Gender</p>
 
-          <div className='flex flex-row pl-12 space-x-10'>
+          <div className='flex flex-row pl-12 space-x-8'>
 
             <div class="">
-              <input id="disabled-radio-1" type="radio" value="" name="disabled-radio" class="w-4 h-4 text-blue-400  bg-gray-100 border-gray-300 focus:ring-blue-500  focus:ring-2 " />
-              <label for="disabled-radio-1" class="ml-2 text-sm text-black font-bold">Male</label>
+              <input id="disabled-radio-1" type="radio" value="" name="disabled-radio" class="w-4 h-4 text-blue-400  bg-white border-gray-300 focus:ring-blue-700   " />
+              <label for="disabled-radio-1" class="ml-2 text-sm text-blue-400 font-bold">Male</label>
             </div>
             <div class="">
-              <input checked id="disabled-radio-2" type="radio" value="" name="disabled-radio" class="w-4 h-4 text-blue-400 bg-gray-100 border-gray-300 focus:ring-blue-500  focus:ring-2 " />
-              <label for="disabled-radio-2" class="ml-2 text-sm  text-black font-bold">Female</label>
+              <input checked id="disabled-radio-2" type="radio" value="" name="disabled-radio" class="w-4 h-4 text-blue-400 bg-white  focus:ring-blue-700   " />
+              <label for="disabled-radio-2" class="ml-2 text-sm font-bold text-blue-400">Female</label>
             </div>
 
           </div>
@@ -119,25 +125,29 @@ export default function Sign_Up(){
 
 
 
-
-        {/* <div class="relative w-full">
+{/* 
+       <div class="relative w-full">
           <div class="absolute inset-y-0 right-0 flex items-center px-2">
             <input class="hidden js-password-toggle" id="toggle" type="checkbox" />
             <label class="bg-gray-300 hover:bg-gray-400 rounded px-2 py-1 text-sm text-gray-600 font-mono cursor-pointer js-password-label" for="toggle">show</label>
           </div>
           <input class="appearance-none border-2 rounded w-full py-3 px-3 leading-tight border-gray-300 bg-gray-100 focus:outline-none focus:border-indigo-700 focus:bg-white text-gray-700 pr-16 font-mono js-password" id="password" type="password" autocomplete="off"
           />
-        </div> */}
+        </div>  */}
+        
+        
+         <PasswordInput/>
 
-
-{/* <PasswordInput/> */}
-
-<div class="relative  ">
+{/* <div class="relative  ">
        <label class="absolute  ml-[-80px] -mt-1 text-sm font-semibold  bg-white text-blue-400">Password</label>
        <input type="password" class="block w-full pt-3.5 px-8 py-3.5 mt-2 text-sm placeholder-blue-400 bg-white border border-gray-300 rounded-md focus:outline-none focus:border-black" placeholder="John"/>
-    </div>
+    </div> */}
 
         
+
+
+    
+
 
       </div>
 
@@ -152,31 +162,31 @@ export default function Sign_Up(){
 <div>
 	<label class="flex cursor-pointer gap-2">
 		<input type="checkbox" class="checkbox" />
-		<span>Remember me?</span>
+		<span className="text-blue-400">Remember me?</span>
 	</label>
 </div>
 
       </div>
 
 
-      <div className='flex flex-row '>
+      <div className='flex flex-row pl-8 '>
 
-        <button className='bg-blue-800 mr-auto ml-auto border-2 border-blue-800 font-bold text-white-500 px-16 py-1.5 rounded-full w-[570px] text-bold text-white'>   Sign Up</button>
+        <button className='bg-blue-800  border-2 border-blue-800 font-bold text-white-500 px-16 py-1.5 rounded-full w-[570px] text-bold text-white'>   Sign Up</button>
 
       </div>
 
 
-      <div className='flex flex-row'>
+      <div className='flex flex-row pl-8'>
 
-      <div class="divider divider-horizontal w-3/4 h-0 ml-auto mr-auto text-md">or</div>
-      
+      <div class="divider divider-horizontal w-4/5 h-0  text-md text-gray-600">or</div>
+       
       </div>
 
 
 
-      <div className='flex flex-row '>
+      <div className='flex flex-row pl-8'>
 
-        <div className='flex flex-row justify-center ml-auto mr-auto space-x-16 space-y-0'>
+        <div className='flex flex-row justify-center space-x-16 space-y-0'>
 {/* 
           <button className='mx-6 btn btn-solid-error'>    Sign Up with Google</button> */}
 
@@ -208,10 +218,10 @@ export default function Sign_Up(){
 
 
 
-      <div className='flex flex-row ml-auto mr-auto space-x-6'>
+      <div className='flex flex-row w-11/12 '>
 
 
-        <p className="text-blue-400">Already Have an account?  <a className='font-semibold text-blue-600 underline' href="#">Login</a>   </p>
+        <p className="ml-auto mr-auto text-blue-400">Already Have an account?  <a className='font-semibold text-blue-600 underline' href="#">Login</a>   </p>
 
 
       </div>
@@ -236,13 +246,25 @@ export default function Sign_Up(){
 
 
 
-<div className='w-1/2 bg-red-500'>div2</div>
+<div className='flex items-center justify-center w-1/2  h-[89.7%]'>
 
+
+
+<div className="w-11/12 h-full mt-16 mr-auto">
+
+<img src="https://wikibio.in/wp-content/uploads/2023/08/Kashaf-Ali-while-studying-at-The-Lyceum-School-Karachi.jpg" className="w-4/5 h-full"/> 
+    
 </div>
 
 
 
+
+    
 </div>
+
+</div>
+
+
 
 
 
