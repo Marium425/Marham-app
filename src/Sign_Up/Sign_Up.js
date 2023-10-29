@@ -221,7 +221,7 @@ export default function Sign_Up(){
       <div className='flex flex-row w-11/12 max-sm:w-full'>
 
 
-        <p className="ml-auto mr-auto text-blue-400 max-lg:ml-32 max-md1:ml-16 max-sm:ml-auto max-sm:mr-auto">Already Have an account?      <a className='font-semibold text-blue-600 underline' href="#">Login</a>   </p>
+        <p className="ml-auto mr-auto text-blue-400">Already Have an account?      <a className='font-semibold text-blue-600 underline' href="#">Login</a>   </p>
 
 
       </div>

@@ -15,11 +15,12 @@ function App() {
 {/* <Login /> */}
  {/* <Navbar/>  */}
  
-{/* <Sign_Up/>  */}
+<Sign_Up/> 
 {/* <PasswordInput/> */}
 
 {/* <Country/> */}
 
+{/* pak */}
 </div>
 
 
