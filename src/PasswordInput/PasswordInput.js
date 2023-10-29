@@ -26,10 +26,10 @@ const PasswordInput = () => {
   };
 
   return (
-<div class="relative">
-       <label class="absolute  ml-[-80px] -mt-1 text-sm font-semibold  bg-white text-blue-400">Password</label>
+<div class="relative max-xs:pl-2 small:pl-2">
+       <label class="absolute  ml-[-80px] -mt-1 text-sm font-semibold  bg-white text-blue-400 small:ml-[-60px] extrasmall:ml-[-60px]">Password</label>
        <input  
-          class="block w-full px-8 py-3 mt-2 text-base placeholder-blue-400 bg-white border border-gray-300 rounded-md focus:outline-none "
+          class="block w-full px-8 py-3 mt-2 text-base placeholder-blue-400 bg-white border border-gray-300 rounded-md focus:outline-none max-lg:ml[-8px] max-xs:w-48"
            placeholder=""
           type={showPassword ? 'text' : 'password'}
           id="password"
