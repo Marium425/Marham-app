@@ -5,17 +5,19 @@ import Sign_Up from './Sign_Up/Sign_Up';
 import Login from './Login/Login';
 // import Sign_Up from './Sign_Up/Sign_Up';
 import Country from './Country_Code/country';
+import Register from './Registration_Form/register';
 
 function App() {
   return (
-<div className="App">
+<div className="">
       
-<Navbar/>
-<Sign_Up />
+ <Navbar/> 
+ <Register/>
+{/* <Sign_Up /> */}
 {/* <Login /> */}
  {/* <Navbar/>  */}
  
-<Sign_Up/> 
+{/* <Sign_Up/>  */}
 {/* <PasswordInput/> */}
 
 {/* <Country/> */}

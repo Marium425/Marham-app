@@ -10,16 +10,15 @@ export default function Sign_Up(){
 
 
 
-<div className='flex w-full h-[635px] bg-white'>
+<div className='flex w-full h-full bg-white'>
 
-<div className='w-1/2  h-[635px] max-sm:w-full'>
+<div className='w-1/2 h-full bg-white max-sm:w-full'>
 
-  <section class="p-6 bg-white max-sm:bg-white xs:bg-yellow-500 small:bg-red-200 xsmall:bg-green-500">
-    <h2 className="mt-2 text-3xl font-bold text-left text-blue-400 ml-9 max-lg:text-xl max-md1:ml-2 max-sm:text-[45px] max-sm:text-center small:text-[35px] small:text-center extrasmall:text-[30px]">Create Account</h2>
-    <form novalidate="" action="" class="container flex flex-col mx-auto space-y-6 mt-10 max-sm:mt-16 max-sm:space-y-8">
-  
+  <section class="p-6 max-sm:pl-0 bg-white max-lg:bg-green-300  h-full max-sm:bg-cyan-600 max-smm:bg-orange-300 max-small:bg-pink-300   max-triplesmall:bg-yellow-300  ">
+    <h2 className="mt-2 max-xl:ml-[-50px] max-fifthsmall:text-[26px] pl-20 max-sm:bg-orange-300 max-sm:w-[300px] max-lg:ml-[-40px] max-smm:bg-yellow-300 max-smm:w-[300px] max-smm:ml-auto max-smm:mr-auto max-doublesmall:text-[30px] max-doublesmall:mt-4 text-3xl font-bold  text-blue-400 ml-[-420px] max-lg:text-xl max-md1:ml-2 max-sm:text-[45px] max-sm:text-center small:text-[35px] small:text-center extrasmall:text-[30px] max-extrasmall:text-[35px] max-extrasmall:ml-auto max-extrasmall:mr-auto   ">Create Account</h2>
+    <form novalidate="" action="" class="container pl-8  max-lg:ml-[-15px] max-md1:ml-1  max-fourthsmall:ml-1 max-fifthsmall:ml-0   max-lg:space-y-7  flex flex-col mx-auto space-y-6 mt-10 max-sm:mt-16 max-sm:space-y-8">
 
-      <div className='flex flex-row pl-8 space-x-20 max-md1:pl-0 max-xs:space-x-16 small:space-x-8 extrasmall:space-x-4'>
+      <div className=' max-fifthsmall:w-[255px] max-sm:bg-orange-300 max-sm:pl-6 max-smm:bg-pink-400 max-smm:ml-8 max-smm:pl-4 max-smm:w-[490px] max-smm:space-x-2  max-sm:w-[560px] max-fifthsmall:ml-[-6px]  max-md:w-[340px]  max-triplesmall:flex-col max-fifthsmall:mt-[-16px]  max-fourthsmall:w-[290px] max-fourthsmall:ml-[-17px]   max-triplesmall:items-center  max-triplesmall:space-y-8 max-extrasmall:justify-center    max-extrasmall:space-x-3 flex flex-row pl-8 space-x-20 max-md1:pl-0 max-xs:space-x-16 small:space-x-8 extrasmall:space-x-4 max-small:ml-[-6px]'>
 
         {/* <fieldset class="grid grid-cols-2 gap-6 pl-6 rounded-md shadow-sm  border-2 border-black">
 
@@ -40,16 +39,16 @@ export default function Sign_Up(){
         </fieldset> */}
 
 
-<div class="relative small:ml-[-8px] extrasmall:ml-[-8px]">
-       <label class="absolute  ml-[-80px] -mt-1 text-sm font-semibold  bg-white text-blue-400">First Name</label>
-       <input type="text" class="block placeholder:text-xs w-full pt-3.5 px-8 py-3.5 mt-2 text-sm placeholder-blue-400 text-blue-400 bg-white border border-gray-300 rounded-md focus:outline-none focus:border-black max-xs:w-48" placeholder="Enter Your First Name"/>
+<div class="relative  extrasmall:ml-[-8px] max-triplesmall:ml-auto max-triplesmall:mr-auto">
+       <label class="absolute max-fifthsmall:ml-[-100px] max-md1:ml-[-70px]  max-sm:ml-[-100px]  max-triplesmall:ml-[-115px]  ml-[20px] -mt-1 text-sm font-semibold  bg-white text-blue-400">First Name</label>
+       <input type="text" class="max-smm:w-[220px] max-triplesmall:w-[280px] max-sm:w-[250px] max-fifthsmall:w-[240px] block max-doublesmall:w-[180px] placeholder:text-xs w-full pt-3.5 px-8 py-3.5 mt-2 text-sm placeholder-blue-400 text-blue-400 bg-white border border-gray-300 rounded-md focus:outline-none focus:border-black max-xs:w-48" placeholder="Enter Your First Name"/>
     </div>
 
 
     
-<div class="relative">
-       <label class="absolute  ml-[-80px] -mt-1 text-sm font-semibold  bg-white text-blue-400">Last Name</label>
-       <input type="text" class="block w-full placeholder:text-xs pt-3.5 px-8 py-3.5 mt-2 text-blue-400 text-sm placeholder-blue-400 bg-white border border-gray-300 rounded-md focus:outline-none focus:border-black max-xs:w-48" placeholder="Enter Your Last Name"/>
+<div class="relative max-triplesmall:ml-auto max-triplesmall:mr-auto">
+       <label class="absolute ml-[20px] max-fifthsmall:ml-[-100px] max-md1:ml-[-70px] max-sm:ml-[-100px] max-triplesmall:ml-[-120px]  -mt-1  text-sm font-semibold  bg-white text-blue-400">Last Name</label>
+       <input type="text" class="max-smm:w-[220px] max-fifthsmall:w-[240px] max-sm:w-[250px] max-triplesmall:w-[280px] max-triplesmall:ml-[-10px]   block w-full max-doublesmall:w-[180px] placeholder:text-xs pt-3.5 px-8 py-3.5 mt-2 text-blue-400 text-sm placeholder-blue-400 bg-white border border-gray-300 rounded-md focus:outline-none focus:border-black max-xs:w-48" placeholder="Enter Your Last Name"/>
     </div>
 
       </div>
@@ -57,22 +56,18 @@ export default function Sign_Up(){
 
 
 
-      <div className='flex flex-row pl-8 space-x-20 max-md1:pl-0 max-xs:space-x-16 small:space-x-8 extrasmall:space-x-4'>
-
+      <div className=' max-fifthsmall:w-[255px] max-sm:bg-orange-300 max-smm:bg-pink-400 max-smm:ml-8 max-smm:pl-4 max-smm:w-[490px]  max-sm:pl-6  max-sm:w-[560px] max-md:w-[340px] max-fifthsmall:ml-[-5px] max-triplesmall:flex-col max-fourthsmall:ml-[-17px] max-fourthsmall:w-[290px]       max-triplesmall:items-center  max-triplesmall:space-y-8 flex max-extrasmall:justify-center  max-extrasmall:space-x-3  flex-row pl-8 space-x-20 max-md1:pl-0 max-xs:space-x-16 small:space-x-8 extrasmall:space-x-4 max-small:ml-[-6px]'>
 
         
 <div class="relative small:ml-[-8px] extrasmall:ml-[-8px]">
-       <label class="absolute  ml-[-80px] -mt-1 text-sm font-semibold  bg-white text-blue-400">Email</label>
-       <input type="email" class="block w-full placeholder:text-xs  pt-3.5 px-8 py-3.5 mt-2 text-sm text-blue-400 placeholder-blue-400 bg-white border border-gray-300 rounded-md focus:outline-none focus:border-black max-xs:w-48" placeholder="Enter Your Email"/>
+       <label class="ml-[20px] max-fifthsmall:ml-[-100px] max-triplesmall:ml-[-110px] max-sm:ml-[-100px] max-md1:ml-[-70px] absolute   -mt-1 text-sm font-semibold  bg-white text-blue-400">Email</label>
+       <input type="email" class="max-smm:w-[220px] max-fifthsmall:w-[240px] max-sm:w-[250px] block max-triplesmall:w-[280px] max-doublesmall:w-[180px] w-full placeholder:text-xs  pt-3.5 px-8 py-3.5 mt-2 text-sm text-blue-400 placeholder-blue-400 bg-white border border-gray-300 rounded-md focus:outline-none focus:border-black max-xs:w-48" placeholder="Enter Your Email"/>
     </div>
-
-
     
 
     <div class="relative">
-       <label class="absolute  ml-[-80px] -mt-1 text-sm font-semibold  bg-white text-blue-400">Phone Number</label>
-    
-       <input type="text" class="block w-full pt-3.5  placeholder:pl-12  placeholder:text-[12px] px-8 py-3.5 mt-2 text-sm text-blue-400 placeholder-blue-400 bg-white border border-gray-300 rounded-md focus:outline-none focus:border-black max-xs:w-48" placeholder="Enter Phone Number"/>
+       <label class="ml-[20px] max-fifthsmall:ml-[-110px] max-triplesmall:ml-[-120px] max-sm:ml-[-100px] max-md1:ml-[-70px] absolute   -mt-1 text-sm font-semibold  bg-white text-blue-400">Phone Number</label>
+       <input type="text" class=" max-smm:w-[220px] max-fifthsmall:w-[240px] max-sm:w-[250px] max-sm:pl-10 max-triplesmall:pl-12  max-triplesmall:ml-[-10px] block max-triplesmall:w-[280px]  max-doublesmall:w-[180px] w-full pt-3.5  placeholder:pl-12  placeholder:text-[12px] px-8 py-3.5 mt-2 text-sm text-blue-400 placeholder-blue-400 bg-white border border-gray-300 rounded-md focus:outline-none focus:border-black max-xs:w-48" placeholder="Enter Phone Number"/>
        <Country/>
     </div>
 
@@ -98,13 +93,13 @@ export default function Sign_Up(){
       </div>
 
 
-      <div className='flex flex-row pl-8 space-x-24 max-md1:pl-0 max-xs:space-x-16 small:space-x-8 extrasmall:space-x-4'>
+      <div className=' max-fifthsmall:w-[255px] max-sm:bg-orange-300 max-smm:bg-pink-400 max-smm:ml-8 max-smm:pl-4 max-smm:w-[490px]  max-sm:pl-6  max-sm:w-[560px]  max-md:w-[340px] max-fifthsmall:ml-[-6px] flex max-triplesmall:flex-col  max-fourthsmall:ml-[-17px] max-fourthsmall:w-[290px]      max-triplesmall:items-center  max-triplesmall:space-y-8  max-extrasmall:justify-center max-extrasmall:space-x-3 max-small:ml-[-5px] flex-row pl-8 space-x-24 max-md1:pl-0 max-xs:space-x-16 small:space-x-8 extrasmall:space-x-4'>
 
-        <div className='flex flex-col space-y-3 '>
+        <div className='flex  max-fifthsmall:w-[230px] max-sm:bg-black  max-fifthsmall:ml-[-10px] flex-col space-y-3  max-triplesmall:ml-[-30px] max-doublesmall:mt-[-6px]'>
 
           <p className='mr-auto font-bold text-blue-400'>Gender</p>
 
-          <div className='flex flex-row pl-12 space-x-8'>
+          <div className='flex flex-row pl-12 space-x-8 max-md:space-x-5 max-fifthsmall:space-x-6 ma max-doublesmall:space-x-3'>
 
             <div class="">
               <input id="disabled-radio-1" type="radio" value="" name="disabled-radio" class="w-4 h-4 text-blue-400  bg-white border-gray-300 focus:ring-blue-700   " />
@@ -152,46 +147,46 @@ export default function Sign_Up(){
       </div>
 
 
-      <div className='flex flex-row pl-8 max-md1:pl-0 '>
+      <div className='max-smm:bg-red-600 max-smm:w-[200px] max-sm:bg-purple-400  max-fifthsmall:w-[205px] flex flex-row pl-8 max-fourthsmall:w-[230px] max-smm:ml-8  max-sm:pl-6  max-sm:w-[560px]  max-md1:pl-0 max-fourthsmall:ml-[-17px]    '>
 
         {/* <div class="flex items-center mb-4">
           <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500  focus:ring-2 " />
           <label for="default-checkbox" class="ml-2 text-sm  text-black font-bold">Keep me logged in</label>
-        </div> */}
+         </div> */}
 
-<div>
+ <div className="max-extrasmall:ml-[-10px] max-smm:bg-pink-400 max-doublesmall:ml-[-3px] max-fourthsmall:ml-5 ">
 	<label class="flex cursor-pointer gap-2">
 		<input type="checkbox" class="checkbox" />
 		<span className="text-blue-400">Remember me?</span>
 	</label>
-</div>
+</div> 
 
       </div>
 
 
-      <div className='flex flex-row pl-8 max-md1:pl-0 max-sm:ml-0'>
+      <div className='flex flex-row  max-sm:bg-orange-300  max-fifthsmall:w-[245px]  max-smm:ml-8 max-smm:bg-pink-400 max-smm:pl-4 max-smm:w-[490px]  max-sm:pl-6  max-sm:w-[560px] max-fifthsmall:ml-1  max-fourthsmall:ml-[-5px] max-fourthsmall:w-[270px]   max-triplesmall:w-[270px] max-triplesmall:ml-auto  max-triplesmall:mr-auto  max-doublesmall:w-[300px] max-doublesmall:ml-5     max-extrasmall:w-[350px] pl-8 max-md1:pl-0 '>
 
-        <button className='bg-blue-800  border-2 border-blue-800 font-bold text-white-500 px-16 py-1.5 rounded-full w-[570px] text-bold text-white '>   Sign Up</button>
+        <button className='bg-blue-800  max-fourthsmall:ml-[3px] max-fourthsmall:w-[260px] max-fifthsmall:w-[240px]  max-extrasmall:w-full max-extrasmall:py-2    border-2 border-blue-800 font-bold text-white-500 px-16 py-1.5 rounded-full w-[570px] text-bold text-white '>   Sign Up</button>
 
       </div>
 
 
-      <div className='flex flex-row pl-8 max-md1:pl-0'>
+      <div className='flex  max-xl:pl-[100px] max-extrasmall:ml-[-13px] max-sm:bg-orange-300 max-smm:ml-8 max-fifthsmall:ml-1 max-smm:bg-pink-400 max-smm:pl-4 max-smm:w-[480px]  max-sm:pl-6  max-sm:w-[560px]   flex-row pl-12 max-md1:pl-0'>
 
-      <div class="divider divider-horizontal w-4/5 h-0  text-md text-gray-600 max-lg:ml-8 max-sm:ml-auto max-sm:mr-auto">or</div>
+      <div class="divider  max-fifthsmall:ml-10 divider-horizontal w-4/5 h-0 max-md1:ml-8  text-md text-gray-600  max-sm:ml-auto max-sm:mr-auto">or</div>
        
       </div>
 
 
 
-      <div className='flex flex-row pl-8 max-md1:pl-0 max-md:pl-0 '>
+      <div className='flex  max-fifthsmall:w-[242px] max-sm:bg-orange-300 max-fourthsmall:ml-5  max-smm:ml-8  max-smm:bg-pink-400 max-smm:pl-4 max-smm:w-[480px] max-sm:pl-6  max-sm:w-[560px]   max-fifthsmall:ml-[5px] flex-row pl-16  max-fourthsmall:w-[260px]  max-md1:pl-0 max-md:pl-0 '>
 
-        <div className='flex flex-row justify-center space-x-8 space-y-0 max-lg:py-2 max-md1:space-x-2 max-md:text-xs max-sm:w-full'>
+        <div className='flex max-xl:ml-[-30px] flex-row justify-center space-x-12 space-y-0 max-md1:space-x-5 max-fifthsmall:ml-0 max-lg:py-2 max-triplesmall:flex-col max-triplesmall:space-y-4 max-md:text-xs max-sm:w-full max-extrasmall:space-x-10'>
 {/* 
           <button className='mx-6 btn btn-solid-error'>    Sign Up with Google</button> */}
 
-<button type="button" class="btn text-center rounded-full px-10 bg-[#ca493d] max-lg:py-8 max-lg:text-white max-md:px-6 max-sm:px-8 max-sm:py-8 max-sm:mt-0.5">
-				<svg stroke="currentColor" fill="currentColor" stroke-width="0" version="1.1" viewBox="0 0 48 48" enablebackground="new 0 0 48 48" class="h-5 w-5 max-lg:w-7 max-lg:h-7" xmlns="http://www.w3.org/2000/svg">
+<button type="button" class="btn  max-extrasmall:px-11 max-extrasmall:py-8 max-triplesmall:py-5 text-center rounded-full px-10 bg-[#ca493d] max-lg:py-8 max-lg:text-white max-md:px-6 max-sm:px-8 max-sm:py-8 max-sm:mt-0.5">
+				<svg stroke="currentColor" fill="currentColor" stroke-width="0" version="1.1" viewBox="0 0 48 48" enablebackground="new 0 0 48 48" class="h-5 w-5 max-lg:w-7 max-lg:h-7 max-fourthsmall:ml-[-46px] ml-[-17px]" xmlns="http://www.w3.org/2000/svg">
 					<path fill="#FFC107" d="M43.611,20.083H42V20H24v8h11.303c-1.649,4.657-6.08,8-11.303,8c-6.627,0-12-5.373-12-12c0-6.627,5.373-12,12-12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657C34.046,6.053,29.268,4,24,4C12.955,4,4,12.955,4,24c0,11.045,8.955,20,20,20c11.045,0,20-8.955,20-20C44,22.659,43.862,21.35,43.611,20.083z"></path>
 					<path fill="#FF3D00" d="M6.306,14.691l6.571,4.819C14.655,15.108,18.961,12,24,12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657        C34.046,6.053,29.268,4,24,4C16.318,4,9.656,8.337,6.306,14.691z"></path>
 					<path fill="#4CAF50" d="M24,44c5.166,0,9.86-1.977,13.409-5.192l-6.19-5.238C29.211,35.091,26.715,36,24,36        c-5.202,0-9.619-3.317-11.283-7.946l-6.522,5.025C9.505,39.556,16.227,44,24,44z"></path>
@@ -201,15 +196,15 @@ export default function Sign_Up(){
               c0.001-0.001,0.002-0.001,0.003-0.002l6.19,5.238C36.971,39.205,44,34,44,24C44,22.659,43.862,21.35,43.611,20.083z"
 					></path>
 				</svg>
-				<span>Sign up with google</span>
+				<span className="ml-4 max-fourthsmall:ml-4">Sign up with google</span>
 			</button>
 
-            <div>  
-    <a href="#" class="btn gap-3  text-center bg-blue-600 text-white px-9 transition-colors duration-200 transform border rounded-full  max-lg:py-8 max-md:px-6">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-facebook max-lg:w-7 max-lg:h-7" viewBox="0 0 16 16">
+            <div className="">  
+    <a href="#" class="border-none max-fifthsmall:w-[242px] max-fourthsmall:w-[260px] btn max-triplesmall:ml-[-41px]  max-triplesmall:w-[294px]  text-center max-triplesmall:py-4   max-doublesmall:px-8 bg-blue-600 text-white px-9  transition-colors duration-200 transform border rounded-full  max-lg:py-8 max-md:px-6">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-facebook ml-[-15px] max-lg:w-7 max-lg:h-7 max-fourthsmall:ml-[-30px]" viewBox="0 0 16 16">
             <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
         </svg>
-        <span class="text-sm text-white border-none ">Sign up with Facebook</span></a>
+        <span class="text-sm ml-4 text-white border-none max-fourthsmall:ml-4 ">Sign up with Facebook</span></a>
 </div>
 
         </div>
@@ -218,10 +213,10 @@ export default function Sign_Up(){
 
 
 
-      <div className='flex flex-row w-11/12 max-sm:w-full'>
+      <div className='flex flex-row w-11/12 max-smm:bg-pink-400 max-sm:bg-orange-300  max-smm:ml-8 max-smm:pl-4 max-smm:w-[480px]  max-sm:pl-6  max-sm:w-[560px] '>
 
 
-        <p className="ml-auto mr-auto text-blue-400">Already Have an account?      <a className='font-semibold text-blue-600 underline' href="#">Login</a>   </p>
+        <p className="ml-auto mr-auto text-blue-400 max-triplesmall:mb-5 max-fourthsmall:ml-[-13px] ">Already Have an account?      <a className='font-semibold text-blue-600 underline' href="#">Login</a>   </p>
 
 
       </div>
@@ -246,13 +241,12 @@ export default function Sign_Up(){
 
 
 
-<div className='flex items-center justify-center w-1/2  h-[89.7%] max-sm:hidden'>
+<div className='flex items-center justify-center w-1/2 h-full max-sm:hidden '>
 
 
+<div className="w-11/12 h-full mt-16 mr-auto max-xl:ml-16 max-md1:ml-8 max-md:ml-16">
 
-<div className="w-11/12 h-full mt-16 mr-auto">
-
-<img src="https://wikibio.in/wp-content/uploads/2023/08/Kashaf-Ali-while-studying-at-The-Lyceum-School-Karachi.jpg" className="w-4/5 h-full"/> 
+ <img src="https://wikibio.in/wp-content/uploads/2023/08/Kashaf-Ali-while-studying-at-The-Lyceum-School-Karachi.jpg" className="w-4/5 h-5/6 mt-[-30px] "/>  
     
 </div>
 
