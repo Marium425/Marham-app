@@ -294,7 +294,7 @@ export default function Register(){
       
       <div className="flex flex-row w-full space-x-5 ">
       
-     <p className="ml-auto mr-auto font-semibold text-blue-400 max-md:pt-2">Already a Member  <a href="/login" className="ml-2 text-blue-400 underline cursor-pointer text-semibold hover:text-blue-950">Click here</a></p>
+     <p className="ml-auto mr-auto font-semibold text-blue-400 max-md:pt-2">Already a Member<Link to="/login" target="/self"  className="ml-2 text-blue-400 underline cursor-pointer text-semibold hover:text-blue-950">Click here</Link></p>
       </div>
 
       
