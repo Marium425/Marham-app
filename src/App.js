@@ -20,6 +20,7 @@ function App() {
 
 <Router>
 <Navbar />
+{/* routing */}
 {/* <Register/>  */}
       <Routes>
       <Route path="/" element={<Register />} /> 
