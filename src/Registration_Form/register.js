@@ -6,6 +6,8 @@ import { faEyeSlash } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 import { faGoogle } from "@fortawesome/free-brands-svg-icons";
+import { Link } from 'react-router-dom';
+
 
 
 library.add(faEye,faEyeSlash)
@@ -25,10 +27,10 @@ export default function Register(){
 
 
     return(
-        <div className="flex flex-row w-full h-full bg-white maindiv ">
+        <div className="flex flex-row w-full h-full mt-3 bg-white maindiv">
 
             
-<div className="flex flex-row w-1/2 h-full max-md3:w-3/4 max-md:w-3/5 max-sm:w-full " >
+<div className="flex flex-row w-1/2 h-full mt-3 max-md3:w-3/4 max-md:w-3/5 max-sm:w-full " >
     
     <div class="flex items-center justify-center p-12  ml-auto mr-auto  max-md:w-full  max-md:p-3 ">
 
@@ -292,7 +294,7 @@ export default function Register(){
       
       <div className="flex flex-row w-full space-x-5 ">
       
-     <p className="ml-auto mr-auto font-semibold text-blue-400 max-md:pt-2">Already a Member  <a className="ml-2 text-blue-400 underline text-semibold">Click here</a></p>
+     <p className="ml-auto mr-auto font-semibold text-blue-400 max-md:pt-2">Already a Member  <a href="/login" className="ml-2 text-blue-400 underline cursor-pointer text-semibold hover:text-blue-950">Click here</a></p>
       </div>
 
       

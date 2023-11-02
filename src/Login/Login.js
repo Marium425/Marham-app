@@ -3,11 +3,11 @@ import React from 'react'
 const Login = () => {
     return (
         <div class="LogIn">
-            <div className='flex mt-3 w-full h-screen bg-green-900'>
+            <div className='flex w-full h-screen mt-3 bg-green-900'>
                 <div className='flex flex-col w-1/2 bg-white '>
-                    <div className='w-2/3 h-3/4 bg-white mx-auto my-auto'>
+                    <div className='w-2/3 mx-auto my-auto bg-white h-3/4'>
                         <div className='flex'>
-                            <label className='text-blue-700 font-bold text-3xl'>Log In</label>
+                            <label className='text-3xl font-bold text-blue-700'>Log In</label>
                         </div>
                         <div className="relative mt-7">
                             <label className="absolute max-xl:ml-[-160px] max-lg:ml-[-135px] ml-[-200px] -mt-2 text-sm font-semibold  bg-white text-blue-400">Email</label>
@@ -17,7 +17,7 @@ const Login = () => {
                             <label className="absolute max-xl:ml-[-160px] max-lg:ml-[-135px] ml-[-200px] -mt-2 text-sm font-semibold  bg-white text-blue-400">Password</label>
                             <input type="text" className="block w-full pt-3.5 px-8 py-3.5 mt-2 text-sm placeholder-blue-400 bg-white border border-gray-300 rounded-md focus:outline-none focus:border-black" placeholder="Enter Your Password" />
                         </div>
-                        <div className="flex flex-row w-full mt-4 px-6 max-lg:px-1 max-lg:bg-red-500">
+                        <div className="flex flex-row w-full px-6 mt-4 max-lg:px-1 max-lg:bg-red-500">
                             <input id="disabled-radio-1" type="checkbox" value="" name="disabled-radio" className="mt-[2px] w-4 h-4 max-xl:w-3 max-xl:h-3  text-blue-400  bg-gray-100 border-gray-300 focus:ring-blue-500  focus:ring-2" />
                             <label for="disabled-radio-1" class="ml-2 max-xl:ml-0 max-xl:text-xs text-sm text-blue-400 font-normal">Keep Me Logged In</label>
                             <label class="ml-36 max-xl:ml-20 max-lg:ml-16 max-xl:text-xs text-sm text-blue-400 font-normal underline cursor-pointer">Forgot Password?</label>
@@ -44,8 +44,8 @@ const Login = () => {
                                 </svg>
                                 <span class="text-sm text-white ">Sign up with Facebook</span></a>
                         </div>
-                        <div className='pt-3'>
-                            <label className="text-sm text-blue-400 font-normal ">Don't Have An Account? <span className='text-sm text-blue-400 font-bold underline cursor-pointer'>Sign Up</span></label>
+                        <div className='pt-10 '>
+                            <label className="text-sm font-normal text-blue-400 ">Don't Have An Account? <span className='text-sm font-bold text-blue-400 underline cursor-pointer'><a href="/register" className='hover:text-blue-900'> Sign Up</a></span></label>
                         </div>
                     </div>
                 </div>
